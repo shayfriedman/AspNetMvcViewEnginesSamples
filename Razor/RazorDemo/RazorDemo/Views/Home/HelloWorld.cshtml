@@ -1,0 +1,19 @@
+﻿@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>HelloWorld</title>
+</head>
+<body>
+	<div>
+		Encoded: @ViewBag.HelloWorld
+		<br />
+		Not-encoded:
+		@Html.Raw(ViewBag.HelloWorldHtml)
+	</div>
+</body>
+</html>

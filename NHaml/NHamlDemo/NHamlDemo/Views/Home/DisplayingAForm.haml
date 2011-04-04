@@ -1,0 +1,25 @@
+﻿!!!
+%html
+  %head
+    %title NHaml: Logon
+  %body
+    - using (Html.BeginForm())
+      !=Html.ValidationSummary(true, "Login was unsuccessful.")
+      %div
+        %fieldset
+          %legend Account Information
+          .editor-label
+            !=Html.Label("UserName")
+          .editor-field
+            !=Html.TextBox("UserName")
+            !=Html.ValidationMessage("UserName")
+          .editor-label
+            !=Html.Label("Password")
+          .editor-field
+            !=Html.Password("Password")
+            !=Html.ValidationMessage("Password")
+          .editor-label
+            !=Html.CheckBox("RememberMe")
+            !=Html.Label("RememberMe")
+          %p
+            %input{type="submit", value="Log On"}

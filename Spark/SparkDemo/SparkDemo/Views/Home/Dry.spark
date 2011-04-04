@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Spark Demo</title>
+</head>
+<body>
+	${SayHello(40,"Hello")}
+</body>
+</html>
+
+<macro name="SayHello" FontSize="int" Text="string">
+	<div style="font-size:${FontSize}px">${Text}</div>
+</macro>
+
+

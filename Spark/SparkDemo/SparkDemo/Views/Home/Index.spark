@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+	<ul>
+		<li>${Html.ActionLink("Hello World", "HelloWorld")}</li>
+		<li>${Html.ActionLink("Condition", "Condition")}</li>
+		<li>${Html.ActionLink("Loops", "Loops")}</li>
+		<li>${Html.ActionLink("Layouts", "Layouts")}</li>
+		<li>${Html.ActionLink("Displaying a form", "DisplayingAForm")}</li>		
+		<li>${Html.ActionLink("DRY", "Dry")}</li>
+	</ul>
+	
+</body>
+</html>

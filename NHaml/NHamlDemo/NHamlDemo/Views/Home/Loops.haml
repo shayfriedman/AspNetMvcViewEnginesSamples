@@ -1,0 +1,10 @@
+﻿!!!
+%html
+  %head
+    %title NHaml Demo
+  %body
+    - var values = new[] {"One", "Two", "Three" }
+    %ul
+      - foreach (var item in values)
+        %li !=item	
+		

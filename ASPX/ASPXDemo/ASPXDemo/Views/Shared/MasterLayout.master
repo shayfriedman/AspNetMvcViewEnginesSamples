@@ -1,0 +1,19 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Layouts</title>
+</head>
+<body>
+    <div>
+        <h1>Title from Layout</h1>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+          
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>
+
+

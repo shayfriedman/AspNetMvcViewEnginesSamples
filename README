@@ -1,0 +1,11 @@
+== Hi!
+This repository contains code samples from my talk - "The Big Comparison of ASP.NET MVC View Engines".
+It includes code samples using the ASPX, Razor, Spark, NHaml and StringTemplate view engines.
+The slides for this talk can be found at {http://www.slideshare.net/shayfriedman/the-big-comparison-of-aspnet-mvc-view-engines}[http://www.slideshare.net/shayfriedman/the-big-comparison-of-aspnet-mvc-view-engines].
+
+There's no real license for this thing... fork it, change it, kick it, delete it or do whatever you like with it. Enjoy!
+
+== Contact me
+If you have a question/comment/request/whatever, don't hesitate to let me know. I can be reached via my blog - {http://IronShay.com}[http://IronShay.com] or twitter {@ironshay}[http://twitter.com/ironshay].
+
+

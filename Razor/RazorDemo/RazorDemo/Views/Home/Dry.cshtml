@@ -1,0 +1,19 @@
+﻿@{ Layout = null; }
+
+@helper SayHello(int FontSize, string Text) {
+    <div style="font-size:@(FontSize)px">@Text</div>  
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>ShowHello</title>
+</head>
+<body>
+    <div>
+        @SayHello(40,"Hello")
+    </div>
+</body>
+</html>
+

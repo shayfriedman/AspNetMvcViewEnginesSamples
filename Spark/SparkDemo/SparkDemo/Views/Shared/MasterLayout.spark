@@ -1,0 +1,13 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Spark: With Layout</title>
+</head>
+<body>
+    <div>
+        <h1>Title from Layout</h1>
+        <use content="view" />
+    </div>
+</body>
+</html>

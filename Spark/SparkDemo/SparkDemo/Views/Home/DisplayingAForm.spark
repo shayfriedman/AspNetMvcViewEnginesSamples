@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Spark: Logon</title>
+</head>
+<body>
+
+<viewdata model="SparkDemo.Models.LogOnModel"/>
+
+<Form>
+	<ValidationSummary ExcludePropertyErrors="true">
+		Login was unsuccessful.
+	</ValidationSummary>
+	<div>
+		<fieldset>
+			<legend>Account Information</legend>
+
+			<div class="editor-label">
+				<Label For="UserName"/>
+			</div>
+			<div class="editor-field">
+				<TextBox For="UserName"/>
+				<ValidationMessage For="UserName"/>
+			</div>
+
+			<div class="editor-label">
+				<Label For="Password"/>
+			</div>
+			<div class="editor-field">
+				<Password For="Password"/>
+				<ValidationMessage For="Password"/>
+			</div>
+
+			<div class="editor-label">
+				<CheckBox For="RememberMe"/>
+				<Label For="RememberMe"/>
+			</div>
+
+			<p>
+				<input type="submit" value="Log On" />
+			</p>
+		</fieldset>
+	</div>
+</Form>
+
+</body>
+</html>
